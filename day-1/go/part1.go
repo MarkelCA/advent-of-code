@@ -8,7 +8,11 @@ import (
 	"strconv"
 )
 
-func Part1() {
+func main() {
+    part1()
+}
+
+func part1() {
 	f, err := os.Open("input.txt")
 	if err != nil {
 		log.Fatal(err)
